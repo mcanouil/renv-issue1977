@@ -11,7 +11,7 @@ Depends:
 Imports:
     pkg1
 Remotes:
-    pkg1=github::mcanouil/renv-issue1977:src/packages/pkg1@pkg1-latest
+    github::mcanouil/renv-issue1977:src/packages/pkg1@pkg1-latest
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2

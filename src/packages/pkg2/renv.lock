@@ -1,0 +1,39 @@
+{
+  "R": {
+    "Version": "4.4.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "pkg1": {
+      "Package": "pkg1",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "mcanouil",
+      "RemoteRepo": "renv-issue1977",
+      "RemoteSubdir": "src/packages/pkg1",
+      "RemoteRef": "pkg1-latest",
+      "RemoteSha": "37e612f6bca1e1ffcb2e76afc1780ca4d39f910f",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "c83366aaa6f35a06a9a5bfb702385f51"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
+    }
+  }
+}

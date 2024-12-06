@@ -4,7 +4,8 @@
 #'
 #' @return None. This function is called for its side effects.
 #' @export
-#' @export
+#' @examples
+#' goodbye()
 goodbye <- function() {
   print("Goodbye, world!")
 }
