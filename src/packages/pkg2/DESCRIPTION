@@ -1,0 +1,17 @@
+Package: pkg2
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mickaël", "Canouil", , "pro@mickael.canouil.dev", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3396-454"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Depends:
+    R (>= 4.0.0)
+Imports:
+    pkg1
+Remotes:
+    pkg1=github::mcanouil/renv-issue1977:src/packages/pkg1@pkg1-latest
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
